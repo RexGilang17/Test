@@ -1,0 +1,43 @@
+Windows PowerShell adalah mesin otomatisasi berorientasi objek oriented programming dan bahasa skrip.
+PowerShell dirancang untuk memperluas kemampuan shell Command untuk menjalankan perintah PowerShell yang disebut cmdlet. 
+Cmdlet mirip dengan Perintah Windows tetapi menyediakan bahasa skrip yang lebih dapat diperluas.
+
+
+1. cd -> Set-Location		: Membuat lokasi dirctory saat ini ke lokasi yang ditentukan.
+ 
+2. ls -> Get-ChildItem		: Mendapatkan file dan folder dalam drive sistem file.
+
+4. ni -> New-Item		: Membuat item baru
+
+5. mv -> Move-Item		: Memindahkan item dari satu lokasi ke lokasi lainnya.
+
+6. echo -> Write-Output		: Untuk menampilkan perintah sederhana 
+					contoh: echo "Gilang PGT 2022" maka objek akan di tampilkan
+
+7. cp -> Copy-Item		: Menyalin item dari satu lokasi ke lokasi lainnya.
+
+8. rmdir -> Remove-Item		: Menghapus item,berkas dan folder.	
+
+9. rni -> Rename-Item		: Mengganti nama item pada nama penyedia Windows PowerShell.
+
+10. gi -> Get-Item		: Mendapatkan berkas dan folder.
+
+11. cat -> Get-Content		: Mendapatkan isi dari suatu file
+
+12. ac -> Add-Content		: Menambahkan konten, seperti kata atau data, ke dalam file
+
+13. si -> Set-Item		: Mengubah nilai item menjadi value.
+
+14. set -> Set-Variable		: Mengatur nilai variabel. Membuat variabel jika variabel dengan nama yang diminta tidak ada.
+
+15. select -> Select-Object	: Memilih properti objek atau objek.
+
+16. gv -> Get-Variable		: Mendapatkan variabel di konsol saat ini.
+
+17. gwmi -> Get-WmiObject	: Mendapatkan contoh kelas atau informasi Instrumentasi Manajemen Windows (WMI) tentang kelas yang tersedia.
+
+18. rwmi -> Remove-WmiObject	: Menghapus contoh kelas Instrumentasi Manajemen Windows (WMI) yang ada.
+
+19. iwmi -> Invoke-WmiMethod	: Memanggil metode Instrumentasi Manajemen Windows (WMI).
+
+20. iwr -> Invoke-WebRequest	: Mendapatkan isi dari halaman web pada Internet.
